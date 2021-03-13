@@ -144,6 +144,7 @@ def about():
 
 @app.route("/contact")
 def contact():
+    
     return render_template("contact.html", logged_in=current_user.is_authenticated)
 
 
